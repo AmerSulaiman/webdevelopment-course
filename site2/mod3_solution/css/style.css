@@ -174,12 +174,28 @@ width: 100%;
 	background-color: #b3b300;
 }
 
+#cat1 p{
+	line-height: 30px;
+	font-weight: 0.7;
+}
+
+#cat2 p{
+	line-height: 30px;
+	font-weight: 0.7;
+}
+
+#cat3 p{
+	line-height: 30px;
+	font-weight: 0.7;
+}
+
 .button1{
 	background-image: url("img/toggle-button.png");
 	height: 30px;
 }
 
 #img{
+	background-position: center;
 	height: 20px;
 	width: 30px;
 }
