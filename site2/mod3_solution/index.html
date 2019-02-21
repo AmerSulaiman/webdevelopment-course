@@ -6,17 +6,30 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="js/bootstrap.min.js">
 </head>
 <body>
 <header>
 	<nav id="nav" class="navbar navbar-light">
-  <span class="navbar-brand mb-0 h1">Food,LLC</span>
-  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-  	<span class="icon-bar"></span>
-  	<span class="icon-bar"></span>
-    <span class="icon-bar"></span>
+  <span class="navbar-brand mb-0 h1" id = "food">Food,LLC</span>
+  <div id = "space1"></div>
+<p>
+  <button class="btn btn-primary d-block d-sm-none" id = "button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    <img id = "img" src="img/toggle-button.png">
   </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div id = "space" class="card card-body">
+    <div id = "cat1">
+    	Beef
+    </div>
+    <div id = "cat2">
+    	Chicken
+    </div>
+    <div id = "cat3">
+    	Sushi
+    </div>
+  </div>
+</div>
 
 </nav>
 <h1>OUR MENU</h1>
@@ -48,7 +61,7 @@
 
 </div>
 </header>
-<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </body>
