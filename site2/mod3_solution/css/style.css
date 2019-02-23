@@ -134,6 +134,8 @@ h1{
 #space{
 margin-top: 75px;
 width: 100%;
+margin-left: 0;
+margin-right: 0;
 }
 
 #food{
@@ -152,41 +154,52 @@ width: 100%;
 	top: 10px;
 }
 
-#collapseExample{
-	width: 100%;
+div#collapseExample{
+	width: 100px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 #cat1{
 	text-align: center;
 	height: 30px;
 	background-color: #e6e600;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 #cat2{
 	text-align: center;
 	height: 30px;
 	background-color: #cccc00;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 #cat3{
 	text-align: center;
 	height: 30px;
 	background-color: #b3b300;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 #cat1 p{
 	line-height: 30px;
 	font-weight: 0.7;
+	width: 100%;
 }
 
 #cat2 p{
 	line-height: 30px;
 	font-weight: 0.7;
+	width: 100%;
 }
 
 #cat3 p{
 	line-height: 30px;
 	font-weight: 0.7;
+	width: 100%;
 }
 
 .button1{
