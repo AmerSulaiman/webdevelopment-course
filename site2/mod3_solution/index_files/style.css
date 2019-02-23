@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+
+h1{
+	text-align: center;
+	color: #424949;
+	margin-bottom: 3%;
+}
+
+.container1 p{
+   font-size: 125%;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   color:  #154360;
+}
+
+.container2 p{
+   font-size: 125%;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   color: #4A235A;
+}
+
+.container3 p{
+   font-size: 125%;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   color: #145A32;
+}
+
+.container1 .smallTitle p{
+   font-size: 125%;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+
+.container2 .smallTitle p{
+   font-size: 125%;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+
+.container3 .smallTitle p{
+   font-size: 125%;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+
+.container1{
+	background-color: #A9CCE3;
+	border: 1px black solid;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 8px;
+}
+
+.container2{
+	background-color: #D2B4DE;
+	border: 1px black solid;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 8px;
+}
+
+.container3{
+	background-color: #ABEBC6;
+	border: 1px black solid;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 8px;
+}
+
+.container1 .smallTitle{
+	width:100px;
+	height: 30px;
+	background-color: #154360;
+	margin-left: calc(100% - 94px);
+	border-left: 1px black solid;
+	border-bottom: 1px black solid;
+}
+
+.container2 .smallTitle{
+	width:100px;
+	height: 30px;
+	background-color: #4A235A;
+	margin-left: calc(100% - 94px);
+	border-left: 1px black solid;
+	border-bottom: 1px black solid;
+}
+
+.container3 .smallTitle{
+	width:100px;
+	height: 30px;
+	background-color: #145A32;
+	margin-left: calc(100% - 94px);
+	border-left: 1px black solid;
+	border-bottom: 1px black solid;
+}
+
+.co{
+	margin-bottom: 4%;
+}
+
+#nav{
+	background-color: #FFE100;
+	margin-bottom: 3%;
+}
+
+#btn-div{
+	width:50px;
+	height: 50px;
+}
+
+#button{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#space{
+margin-top: 75px;
+width: 100%;
+}
+
+#food{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+#space1{
+	height: 40px;
+}
+
+#button{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#collapseExample{
+	width: 100%;
+}
+
+#cat1{
+	text-align: center;
+	height: 30px;
+	background-color: #e6e600;
+}
+
+#cat2{
+	text-align: center;
+	height: 30px;
+	background-color: #cccc00;
+}
+
+#cat3{
+	text-align: center;
+	height: 30px;
+	background-color: #b3b300;
+}
+
+#cat1 p{
+	line-height: 30px;
+	font-weight: 0.7;
+}
+
+#cat2 p{
+	line-height: 30px;
+	font-weight: 0.7;
+}
+
+#cat3 p{
+	line-height: 30px;
+	font-weight: 0.7;
+}
+
+.button1{
+	background-image: url("img/toggle-button.png");
+	height: 30px;
+}
+
+#img{
+	background-position: center;
+	height: 20px;
+	width: 30px;
+}
+
+
+
+
+
