@@ -1929,6 +1929,19 @@ var Modal = function ($$$1) {
      */
 
   };
+	
+	.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
 
   var Modal =
   /*#__PURE__*/
