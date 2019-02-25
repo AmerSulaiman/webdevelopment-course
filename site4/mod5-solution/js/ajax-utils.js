@@ -27,6 +27,20 @@ function getRequestObject() {
   if (window.XMLHttpRequest) {
     return (new XMLHttpRequest());
   } 
+
+/*function insertItemPrice(html,
+                         pricePropName,
+                         priceValue) {
+  // If not specified, replace with empty string
+  if (!priceValue) {
+    return insertProperty(html, pricePropName, "");
+  }
+
+  priceValue = "$" + priceValue.toFixed(2);
+  html = insertProperty(html, pricePropName, priceValue);
+  return html;
+}*/
+
   else if (window.ActiveXObject) {
     // For very old IE browsers (optional)
     return (new ActiveXObject("Microsoft.XMLHTTP"));
@@ -42,12 +56,39 @@ function getRequestObject() {
 ajaxUtils.sendGetRequest = 
   function(requestUrl, responseHandler, isJsonResponse) {
     var request = getRequestObject();
+
+/*function insertItemPrice(html,
+                         pricePropName,
+                         priceValue) {
+  // If not specified, replace with empty string
+  if (!priceValue) {
+    return insertProperty(html, pricePropName, "");
+  }
+
+  priceValue = "$" + priceValue.toFixed(2);
+  html = insertProperty(html, pricePropName, priceValue);
+  return html;
+}*/
+
     request.onreadystatechange = 
       function() { 
         handleResponse(request, 
                        responseHandler,
                        isJsonResponse); 
       };
+
+      /*function insertItemPrice(html,
+                         pricePropName,
+                         priceValue) {
+  // If not specified, replace with empty string
+  if (!priceValue) {
+    return insertProperty(html, pricePropName, "");
+  }
+
+  priceValue = "$" + priceValue.toFixed(2);
+  html = insertProperty(html, pricePropName, priceValue);
+  return html;
+}*/
     request.open("GET", requestUrl, true);
     request.send(null); // for POST only
   };
@@ -66,7 +107,18 @@ function handleResponse(request,
     if (isJsonResponse == undefined) {
       isJsonResponse = true;
     }
+/*function insertItemPrice(html,
+                         pricePropName,
+                         priceValue) {
+  // If not specified, replace with empty string
+  if (!priceValue) {
+    return insertProperty(html, pricePropName, "");
+  }
 
+  priceValue = "$" + priceValue.toFixed(2);
+  html = insertProperty(html, pricePropName, priceValue);
+  return html;
+}*/
     if (isJsonResponse) {
       responseHandler(JSON.parse(request.responseText));
     }

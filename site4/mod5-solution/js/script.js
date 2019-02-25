@@ -208,6 +208,19 @@ function buildCategoriesViewHtml(categories,
     finalHtml += html;
   }
 
+/*function insertItemPrice(html,
+                         pricePropName,
+                         priceValue) {
+  // If not specified, replace with empty string
+  if (!priceValue) {
+    return insertProperty(html, pricePropName, "");
+  }
+
+  priceValue = "$" + priceValue.toFixed(2);
+  html = insertProperty(html, pricePropName, priceValue);
+  return html;
+}*/
+
   finalHtml += "</section>";
   return finalHtml;
 }
@@ -245,7 +258,18 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
 function buildMenuItemsViewHtml(categoryMenuItems,
                                 menuItemsTitleHtml,
                                 menuItemHtml) {
+/*function insertItemPrice(html,
+                         pricePropName,
+                         priceValue) {
+  // If not specified, replace with empty string
+  if (!priceValue) {
+    return insertProperty(html, pricePropName, "");
+  }
 
+  priceValue = "$" + priceValue.toFixed(2);
+  html = insertProperty(html, pricePropName, priceValue);
+  return html;
+}*/
   menuItemsTitleHtml =
     insertProperty(menuItemsTitleHtml,
                    "name",
@@ -287,6 +311,8 @@ function buildMenuItemsViewHtml(categoryMenuItems,
                             "large_portion_name",
                             menuItems[i].large_portion_name);
     html =
+
+
       insertProperty(html,
                      "name",
                      menuItems[i].name);
@@ -322,6 +348,20 @@ function insertItemPrice(html,
   html = insertProperty(html, pricePropName, priceValue);
   return html;
 }
+
+// Appends price with '$' if price exists
+/*function insertItemPrice(html,
+                         pricePropName,
+                         priceValue) {
+  // If not specified, replace with empty string
+  if (!priceValue) {
+    return insertProperty(html, pricePropName, "");
+  }
+
+  priceValue = "$" + priceValue.toFixed(2);
+  html = insertProperty(html, pricePropName, priceValue);
+  return html;
+}*/
 
 
 // Appends portion name in parens if it exists
