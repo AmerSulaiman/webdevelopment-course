@@ -1,3 +1,21 @@
+
+
+
+
+
+// Returns an HTTP request object
+
+
+// Makes an Ajax GET request to 'requestUrl'
+
+
+
+// Only calls user provided 'responseHandler'
+// function if response is ready
+// and not an error
+
+
+    // Default to isJsonResponse = true
 (function (global) {
 
 // Set up a namespace for our utility
@@ -64,4 +82,6 @@ global.$ajaxUtils = ajaxUtils;
 
 
 })(window);
+
+
 
